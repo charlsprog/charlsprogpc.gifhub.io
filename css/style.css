@@ -158,6 +158,14 @@ img:hover {
   object-fit: cover;
 }
 
+.card .img-contacto {
+  width: 130%;               /* Ancho reducido */
+  height: 70px;            /* Altura reducida */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px auto; /* Centrado automático */
+}
+
 .flex {
   display: flex;
   flex-wrap: wrap;
@@ -200,10 +208,4 @@ footer {
   text-align: justify;
 }
 
-/* Ajuste específico para la imagen de contacto */
-.img-contacto {
-  width: 130%;         /* Reduce el ancho */
-  height: 70px;      /* Reduce la altura  */
-  object-fit: cover;  
-  display: block;
-}
+
