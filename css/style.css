@@ -159,8 +159,8 @@ img:hover {
 }
 
 .card .img-contacto {
-  width: 100%;               /* Ancho reducido */
-  height: 90px;            /* Altura reducida */
+  width: 90%;               /* Ancho reducido */
+  height: 100px;            /* Altura reducida */
   object-fit: cover;
   display: block;
   margin: 0 auto 15px auto; /* Centrado automático */
