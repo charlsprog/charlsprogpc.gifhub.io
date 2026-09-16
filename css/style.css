@@ -190,7 +190,7 @@ footer {
   font-size: 95%;
 }
 
-/* centrado de texto */
-.texto-centrado {
-  text-align: center;
+/* alineacion de texto */
+.tarjeta {
+  text-align: justify;
 }
