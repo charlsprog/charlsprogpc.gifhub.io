@@ -206,5 +206,4 @@ footer {
   height: 70px;      /* Reduce la altura (estaba en 180px) */
   object-fit: cover;  
   display: block;
-  margin: 0 auto 15px auto; 
 }
