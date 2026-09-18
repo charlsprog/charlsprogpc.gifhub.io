@@ -213,4 +213,48 @@ footer {
   text-align: justify;
 }
 
+/* ADAPTACIÓN PARA PANTALLAS MÓVILES */
+@media (max-width: 768px) {
+  main {
+    margin: 15px 10px;
+    padding: 15px;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  nav a {
+    display: block;
+    width: 80%;
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .flex img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .img-contacto {
+    width: 90%;
+    height: auto;
+  }
+}
 
